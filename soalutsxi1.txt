@@ -1,0 +1,22 @@
+soal 1 
+buat sebuah formulir pendaftaran ppdb sma/smk 
+(nama,alamat,orangtua,jeniskelamin, 
+ tanggal lahir, 
+ agama(min5), asal sekolah, nilai ujian mtk,indo,inggris,ipa,
+ nilai total > 30.40 diterima, 
+ < 30.40 tidak diterima dan juga 
+ ada keterangan tanggal sekarang
+ )
+ akreditasi sekolah asal (smp) minimal B (kondisi)
+ 
+
+soal 2 
+buat sebuah formulir pendaftaran TNI 
+(nama,alamat,orangtua,jeniskelamin, asal sekolah, 
+ tanggal lahir, agama(min5)
+ tinggi badan > 165 nilai tes > 80 diterima, 
+ tinggi badan < 165 nilai tes > 80 tidak diterima 
+ dan juga ada keterangan tanggal sekarang
+ )
+ umur > 25 tahun tidak diterima 
+ (Kondisi automatis dari tahun lahir)

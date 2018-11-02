@@ -1,6 +1,7 @@
 <?php
-$i = 1;
+$i = 1; // init awal
 do {
-    echo "$i ";
-    $i += 2;
-} while ($i <= 20);
+    echo "$i "; // statement
+    $i += 4; //counter
+} while ($i <= 54); //condition
+//

@@ -8,4 +8,4 @@ function cetak_ganjil()
     }
 }
 //pemanggilan fungsi
-cetak_ganjil();
+CEtak_ganjil();

@@ -1,11 +1,11 @@
 <?php
-function tambah_string($str)
+function tambah_string($c)
 {
-    $b = $str . ", Indonesia";
+    $b = $c . ", Indonesia";
     return $b;
 }
 //
 $a = "Universitas Komputer";
-echo "\$str = $a<br>";
-echo tambah_string($a) . "<br>";
-echo "\$str = $a<br>";
+echo "\$str = $a<br>"; // unversitas komputer
+echo tambah_string("Bandung") . "<br>"; // universitas komputer, indonesia
+echo "\$str = $a<br>"; // universitas komputer

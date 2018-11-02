@@ -1,11 +1,17 @@
 <?php
-function tambah_string(&$str)
+function tambah_string(&$b)
 {
-    $str = $str . ", Jakarta";
-    return $str;
+    $b = $b . ", Jakarta";
+    return $b;
 }
-//
-$str = "Universitas Budi Luhur";
-echo "\$str = $str<br>";
-echo tambah_string($str) . "<br>";
-echo "\$str = $str<br>";
+
+//pemanggilan
+$a = "Universitas Budi Luhur";
+echo "\$str = $a<br>"; // univ budi luhur
+echo tambah_string($a) . "<br>"; // univ budi luhur jkt
+echo "\$str = $a<br>"; // univ budi luhur
+
+// reference adalah operator assigment 
+// khusus yang digunakan untuk
+// men - copy nilai referensi 
+// dari sebuah variabel .
