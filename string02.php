@@ -1,13 +1,14 @@
 <?php
-$str = <<<EOD
+$str = <<<PEOD
 Example of string
 spanning multiple lines
 using heredoc syntax.
-EOD;
+PEOD;
 
-$albi = <<<citacita
-albi mempunyai cita cita membuka Perusahaan Web Development.
-citacita;
+$str2 = <<<XWOK
+akang ewok mempunyai cita cita menjadi Presiden.
+XWOK;
+
 
 /* More complex example, with variables. */
 class foo
@@ -21,9 +22,9 @@ class foo
     }
 }
 $foo = new foo();
-$name = 'Albi dan Angga';
+$name = 'Syahrul & Ewok';
 echo <<<PEOT
-<u>$str</u><br>
+<u>$str2</u><br>
 My name is "<b>$name</b>". I am printing some <b>$foo->foo</b>.
 Now, I am printing some <b>{$foo->bar[1]}</b>.
 This should print a capital 'A': \x41

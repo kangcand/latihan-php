@@ -1,9 +1,26 @@
 <?php
 function luas_lingkaran($jari)
 {
-    return 3.14 * $jari * $jari;
-}
-//pemanggilan fungsi
-$a = 10;
-echo "Luas lingkaran dengan jari-jari $a = ";
-echo luas_lingkaran($a);
+    $luas = 3.14 * $jari * $jari;
+    return $luas;
+} //pemanggilan fungsi 
+$r = 10;
+
+echo "Luas lingkaran dengan jari-jari $r = ";
+echo luas_lingkaran($r);
+
+
+
+
+
+// Membuat fungsi
+// function perkalian($a, $b)
+// {
+// $hasil = $a * $b;
+// return $hasil;
+// }
+
+// // Memanggil fungsi
+// $a = perkalian(3, 4);
+// echo "Hasil :" . $a . "
+"<hr>";

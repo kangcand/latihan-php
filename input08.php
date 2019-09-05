@@ -8,7 +8,7 @@
     <FORM ACTION="proses08.php" METHOD="POST">
         <h2>Pilih Film Kartun Favorit Anda :</h2>
         <select name="kartun">
-            <option>Sponge Bob</option>
+            <option value="Busa Kuning">Sponge Bob</option>
             <option value="Sinchan">Sinchan</option>
             <option value="Conan">Conan</option>
             <option value="Doraemon">Doraemon</option>

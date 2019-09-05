@@ -18,8 +18,7 @@ echo 'You deleted C:\\*.*?<br>';
 echo 'You deleted C:\*.*?<br>';
 
 // Outputs: This will not expand: \n a newline
-echo nl2br("This will not expand: \n a newline<br>");
-$expand= adams;
-$either=rei;
+echo nl2br("This will not expand: \n a newline \n kkkk \n");
+// $expand = ujang;
 // Outputs: Variables do not $expand $either
 echo "Variables do not $expand $either";

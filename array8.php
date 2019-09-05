@@ -1,7 +1,7 @@
 <?php
 $arrNilai = array(
     "Ani" => 80, "Otim" => 90, "Sri" => 75,
-    "Budi" => 85
+    "Adi" => 85
 );
 echo "<b>Array sebelum pengurutan</b>";
 echo "<pre>";

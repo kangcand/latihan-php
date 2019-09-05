@@ -11,11 +11,11 @@
 <body>
     <form action="proses06.php" method="post">
         <h2>Pilih Jurusan Anda :</h2>
-        <input type="radio" name="jurusan" value="TI">
+        <input type="radio" name="jurusan" value="TI" checked>
         Teknik Informatika<br>
-        <input type="radio" name="jurusan" value="SI" checked> Sistem
+        <input type="radio" name="jurusan"> Sistem
         Informasi<br>
-        <input type="radio" name="jurusan" value="SK"> Sistem
+        <input type="radio" name="jurusan" value="SI"> Sistem
         Komputer<br>
         <input type="radio" name="jurusan" value="KA">
         Komputerisasi Akuntansi<br>

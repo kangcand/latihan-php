@@ -2,11 +2,12 @@
 if (isset($_POST['Pilih'])) {
     echo "Band Favorit Anda adalah :<br>";
     $a = $_POST['band01'];
-    if ($a) {
+    $b = $_POST['band02'];
+    if ($_POST['band01']) {
         echo "+ " . $a . "<br>";
     }
-    if (isset($_POST['band02'])) {
-        echo "+ " . $_POST['band02'] . "<br>";
+    if ($b) {
+        echo "+ " . $b . "<br>";
     }
     if (isset($_POST['band03'])) {
         echo "+ " . $_POST['band03'] . "<br>";
