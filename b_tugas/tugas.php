@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tugas</title>
 </head>
+
 <body>
     <center>
         <h1>Tugas</h1>
@@ -56,22 +58,23 @@
                     <input type="checkbox" name="i" value="IPA">Ilmu Pengetahuan Alam
                     <input type="checkbox" name="j" value="IPS">Ilmu Pengetahuan Sosial
                     <br><input type="checkbox" name="k" value="PAI">Pendidikan Agama Islam
-                    <input type="checkbox" name="l" value="BI">Bahasa Indonesia    
+                    <input type="checkbox" name="l" value="BI">Bahasa Indonesia
                 </td>
             </tr>
             <tr>
-                <th>Total Nilai Ijasah SD</th>
+                <th>Total Nilai Ijasah SMK</th>
                 <td><input type="text" name="m" size="50" required></td>
             </tr>
             <tr>
                 <th>Email</th>
-                <td><input type="email" name="email" size="50" required ></td>
+                <td><input type="email" name="email" size="50" required></td>
             </tr>
             <tr>
                 <th></th>
-                <td><input type="submit" name="proses" value="Input Data" ></td>
+                <td><input type="submit" name="proses" value="Input Data"></td>
             </tr>
         </table>
     </form>
 </body>
+
 </html>

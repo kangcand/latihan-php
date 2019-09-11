@@ -1,0 +1,17 @@
+Form Penggajian
+1. Nama -> text
+2. NIP -> number
+3. Jenis Kelamin -> radio
+4. alamat -> textarea
+5. Status -> Select (Menikah/Belum Menikah)
+6. Jabatan -> select (HRD, Manager, Staff, Karyawan)
+7. Potongan -> checkbox (BPJS, Koperasi, Jamsostek)
+8. Golongan -> select (A1,A2,A3) 
+Ket:
+Golongan -> A1: Rp. 250.000, A2: 200.000, A3: 150.000
+Status -> Menikah : 100.000 Belum Menikah : 50.000
+Jabatan, HRD:5jt, Manager:4.5jt, Staff:3jt, Karyawan:2.5jt
+Potongan : BPJS:250rb, Koperasi:150rb, Jamsostek:150rb
+Gaji Kotor : (Golongan + Status + Jabatan - Potongan)
+Gaji Bersih : (Gaji Kotor - 2.5% Pajak)
+Tanggal : Posisi Kanan Atas

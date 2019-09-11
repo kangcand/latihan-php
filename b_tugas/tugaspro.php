@@ -23,7 +23,7 @@ if (isset($_POST['proses'])) {
     echo "Nama Orang Tua                : <b>$g</b><br>";
     echo "Mata Pelajran Yang disukai    : ";
     if ($h) {
-        echo"~<b>$h</b><br>";
+        echo "~<b>$h</b><br>";
     }
     if ($i) {
         echo "~<b>$i</b><br>";
@@ -38,10 +38,10 @@ if (isset($_POST['proses'])) {
         echo "~<b>$l</b><br>";
     }
     echo "Email                        : <b>$email</b><br>";
-    echo "Nilai Ijazah SD              : <b>$m</b>";
+    echo "Nilai Ijazah SMK              : <b>$m</b>";
     if ($m > 23) {
-        echo"<br>Selamat Anda Diterima ";
+        echo "<br>Selamat Anda Diterima ";
     } else {
-        echo"<br>Maaf Anda Tidak Diterima ";
+        echo "<br>Maaf Anda Tidak Diterima ";
     }
 }
