@@ -9,7 +9,7 @@ if (isset($_SESSION['login'])) {
     unset($_SESSION);
     session_destroy();
 
-//
+    //
     echo "<h1>Anda sudah berhasil LOGOUT</h1>";
     echo "<h2>Klik <a href='session01.php'>di sini</a> untuk
 LOGIN kembali</h2>";

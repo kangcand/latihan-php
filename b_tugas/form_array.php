@@ -22,15 +22,15 @@
             <hr>
         </form>
 
-        <form action="formarraypro.php" method="post">
+        <form action="form_arraypro.php" method="post">
             <?php
             if (isset($_POST['submit'])) {
                 $jml_form = $_POST['jml'];
                 for ($a = 0; $a < $jml_form; $a++) { ?>
-                    <label for=>Nama</label>
-                    <input type="text" name="nama[]" required>
-                    <label for=>Kelas</label>
-                    <input type="text" name="kelas[]" required>
+                    <label for=>Masukan Bilangan</label>
+                    <input type="text" name="bil[]" required>
+                    <label for=>Masukan Pangkat </label>
+                    <input type="text" name="pangkat[]" required>
                     <br>
                     <br>
                 <?php } ?>

@@ -1,12 +1,4 @@
 <?php
-
-/****************************************************
-Nama file : session01.php
-Halaman ini merupakan halaman contoh penciptaan session.
-Perintah session_start() harus ditaruh di perintah pertama
-tanpa spasi di depannya. Perintah session_start() harus ada
-pada setiap halaman yang berhubungan dengan session
- *****************************************************/
 session_start();
 if (isset($_POST['Login'])) {
     $a = $_POST['user'];
@@ -17,11 +9,11 @@ if (isset($_POST['Login'])) {
         $_SESSION['login'] = $a;
         //menuju ke halaman pemeriksaan session
         echo "<h1>Anda berhasil LOGIN</h1>";
-        echo "<h2>Klik <a href='session02.php'>di sini (session02.php)</a>
-                untuk menuju ke halaman pemeriksaan session";
+        echo "<h2>Klik <a href='hal1.php'>di sini</a>
+                untuk menuju ke halaman selanjutnya";
     } else {
         die("username atau password anda salah 
-        silahkan kembali login <a href=session01.php> Login </a>");
+        silahkan kembali login <a href=login.php> Login </a>");
     }
 } else {
     ?>
@@ -32,6 +24,11 @@ if (isset($_POST['Login'])) {
     </head>
 
     <body>
+        <nav>
+            <a href="hal1.php">Halaman 1</a> |
+            <a href="hal2.php">Halaman 2</a> |
+            <a href="hal3.php">Halaman 3</a> |
+        </nav>
         <form action="" method="post">
             <h2>Login Here...</h2>
             Username : <input type="text" name="user"><br>

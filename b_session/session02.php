@@ -8,7 +8,7 @@ akses terbatas. Misalnya harus login terlebih dahulu.
 session_start();
 //pemeriksaan session
 if (isset($_SESSION['login'])) { //jika sudah login
-//menampilkan isi session
+    //menampilkan isi session
     echo "<h1>Selamat Datang " . $_SESSION['login'] . "</h1>";
     echo "<h2>Halaman ini hanya bisa diakses jika Anda sudah
 login</h2>";
@@ -20,27 +20,27 @@ login</h2>";
 ini.Silahkan login <a href='session01.php'>di sini</a>");
 }
 ?>
-<html>
+<!-- <html>
 <head><title>Upload File</title></head>
 <body>
 <FORM ACTION="" METHOD="POST"
 ENCTYPE="multipart/form-data">
 Upload File : <input type="file" name="file"><br>
 <input type="submit" name="Upload" value="Upload">
-</FORM>
+</FORM> -->
 
 <?php
-    if (isset($_POST['Upload'])) {
-        $dir_upload = "images/";
-        $nama_file = $_FILES['file']['name'];
+// if (isset($_POST['Upload'])) {
+// $dir_upload = "images/";
+// $nama_file = $_FILES['file']['name'];
 //
-        if (is_uploaded_file($_FILES['file']['tmp_name'])) {
-            $cek = move_uploaded_file(
-            $_FILES['file']['tmp_name'],
-            $dir_upload . $nama_file
-        );
-            echo "<img src='../$dir_upload/$nama_file' style='width:100px; height:100px;' alt=''>";
-        }
-    } ?>
-
-
+// if (is_uploaded_file($_FILES['file']['tmp_name'])) {
+// $cek = move_uploaded_file(
+// $_FILES['file']['tmp_name'],
+// $dir_upload . $nama_file
+// );
+// echo "<img src='../$dir_upload/$nama_file' style='width:100px; height:100px;' alt=''>";
+// }
+// } 
+// 
+?>

@@ -1,21 +1,20 @@
 <?php
 if (isset($_POST['sbm'])) {
 
-    $nama = $_POST['nama'];
+    $x = $_POST['nama']; // primary key
     $kelas = $_POST['kelas'];
-    $nomer = 0;
-    $nomer2 = 0;
-    var_dump($nama);
-    foreach ($nama as $data => $a) {
-        echo "Nama  : " . $nama[$data] .
+    foreach ($x as $data => $xx) {
+        echo "Nama  : " . $x[$data] .
             " - Kelas : " . $kelas[$data] . "<hr>";
     }
 }
 
-$bulan = array('Januari', 'Februari', 'Maret');
-foreach ($bulan as $index => $value) {
-    echo $index . " " . $value . '<br/>';
-}
+
+
+// $bulan = array('Januari', 'Februari', 'Maret', 'April', 'Mei');
+// foreach ($bulan as $a => $b) {
+//     echo $a . " " . $b . '<br/>';
+// }
 // $bulan = array('Januari', 'Februari', 'Maret');
 
 // array('jenis' => 'Mobil', 'merk' => 'Toyota', 'tipe' => 'Vios')

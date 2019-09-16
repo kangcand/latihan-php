@@ -32,7 +32,7 @@
 
         if ($jabatan == "HRD") {
             $jab = 5000000;
-        } elseif ($jabatan == "HRD") {
+        } elseif ($jabatan == "Manager") {
             $jab = 4500000;
         } elseif ($jabatan == "Staff") {
             $jab = 3000000;
@@ -45,13 +45,13 @@
         } elseif ($status == "Belum Menikah") {
             $stat = 50000;
         }
-        if ($bpjs) {
+        if (isset($bpjs)) {
             $pot1 = 250000;
         }
-        if ($kop) {
+        if (isset($kop)) {
             $pot2 = 150000;
         }
-        if ($jamsos) {
+        if (isset($jamsos)) {
             $pot3 = 150000;
         }
         $topot = $pot1 + $pot2 + $pot3;
