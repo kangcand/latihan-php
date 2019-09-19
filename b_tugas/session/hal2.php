@@ -26,7 +26,7 @@ if (isset($_SESSION['login'])) {
 
     </html>
 <?php } else {
-    header("location: login.");
+    header("location: login.php");
     // die("Silahkan Login Terlebih dahuli");
 }
 ?>

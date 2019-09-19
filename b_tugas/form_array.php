@@ -14,6 +14,7 @@
     </center>
     <fieldset>
         <legend>Form Array</legend>
+        <!-- Form 1 -->
         <form action="" method="post">
             <label for="">Masukan Jumlah</label>
             <input type="number" min="1" name="jml" required>
@@ -22,6 +23,7 @@
             <hr>
         </form>
 
+        <!-- Form 2 -->
         <form action="form_arraypro.php" method="post">
             <?php
             if (isset($_POST['submit'])) {
