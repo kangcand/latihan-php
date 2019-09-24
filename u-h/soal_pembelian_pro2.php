@@ -137,7 +137,7 @@
                                     <td colspan="6">
                                         <form action="" method="post">
                                             <label for="">Masukan Jumlah Uang</label>
-                                            <input type="number" class="form-control" min="<?php echo $total ?>" name="bayar" required>
+                                            <input type="number" class="form-control" name="bayar" required>
                                             <button type="submit" class="btn btn-lg btn-outline-primary" name="BtnBayar" style="margin:10px;">Bayar</button>
                                         </form>
                                     </td>

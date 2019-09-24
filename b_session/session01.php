@@ -9,20 +9,25 @@ pada setiap halaman yang berhubungan dengan session
  *****************************************************/
 session_start();
 if (isset($_POST['Login'])) {
-    $a = $_POST['user'];
-    $b = $_POST['pass'];
+    $username = $_POST['user'];
+    $password = $_POST['pass'];
     //periksa login
-    if ($a == "admin" && $b == "123456") {
+    if ($username == "admin" && $password == "123456") {
         //menciptakan session
-        $_SESSION['login'] = $a;
+        $_SESSION['login'] = $username;
         //menuju ke halaman pemeriksaan session
         echo "<h1>Anda berhasil LOGIN</h1>";
         echo "<h2>Klik <a href='session02.php'>di sini (session02.php)</a>
                 untuk menuju ke halaman pemeriksaan session";
-    } else {
-        die("username atau password anda salah 
-        silahkan kembali login <a href=session01.php> Login </a>");
-    }
+    } //else {
+    // die("username atau password anda salah 
+    // silahkan kembali login <a href=session01.php> Login </a>");
+    // }
+} elseif ($_SESSION['login']) {
+    echo "<script>";
+    echo "alert('Anda Sudah Login');
+          window.location.href='session02.php'";
+    echo "</script>";
 } else {
     ?>
     <html>
