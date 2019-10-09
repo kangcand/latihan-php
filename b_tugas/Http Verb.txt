@@ -1,8 +1,0 @@
-Method HTTP VERB
-GET, menyediakan hanya akses baca pada resource
-PUT, digunakan untuk menciptakan resource baru
-DELETE, digunakan untuk menghapus resource
-POST, digunakan untuk memperbarui resource yang ada 
-      atau membuat resource baru
-OPTIONS, digunakan untuk mendapatkan operasi yang 
-         disupport pada resource
